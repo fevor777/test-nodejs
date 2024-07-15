@@ -12,7 +12,7 @@ app.use(cors());
 
 // Define a route for the /hello endpoint
 app.get('/hello', (req, res) => {
-  res.json({ value: 'Hello World (from server)' });
+  res.json({ value: 'Hello, Evgeniia!' });
 });
 
 // Start the server and listen on the specified port
